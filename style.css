@@ -1,0 +1,40 @@
+@charset "UTF-8";
+/*
+Theme Name: Project-6
+Theme URI: https://rstsoftbd.com
+Author: the WordPress team
+Author URI: https://rstsoftbd.com
+Description: Our 2019 default theme is designed to show off the power of the block editor. It features custom styles for all the default blocks, and is built so that what you see in the editor looks like what you'll see on your website. Twenty Nineteen is designed to be adaptable to a wide range of websites, whether you’re running a photo blog, launching a new business, or supporting a non-profit. Featuring ample whitespace and modern sans-serif headlines paired with classic serif body text, it's built to be beautiful on all screen sizes.
+Requires at least: 4.9.6
+Requires PHP: 5.2.4
+Version: 1.7
+
+*/
+
+
+.widget_nav_menu ul {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+.widget_nav_menu li a {
+	font-size: 16px;
+	color: #fff;
+	margin-bottom: 5px;
+	display: block;
+}
+
+.widget_nav_menu ul li{
+	position: relative;
+	left: 27px;
+}
+
+.widget_nav_menu ul li:before{
+    content: "\f061";
+    font-weight: 700;
+    font-family: "Font Awesome 5 Free";
+    position: absolute;
+    left: -22px;
+    top: 1px;
+  }
